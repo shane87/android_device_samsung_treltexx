@@ -6,10 +6,10 @@ $(call inherit-product, device/samsung/trelte-common/device-common.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/aokp/configs/common_full_phone.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_treltexx
+PRODUCT_NAME := aokp_treltexx
 PRODUCT_DEVICE := treltexx
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-N910C

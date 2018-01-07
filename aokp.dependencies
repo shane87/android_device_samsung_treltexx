@@ -1,0 +1,8 @@
+[
+  {
+    "remote": "github",
+    "repository": "shane87/android_device_samsung_trelte-common",
+    "target_path": "device/samsung/trelte-common",
+    "branch": "nougat"
+  }
+]
